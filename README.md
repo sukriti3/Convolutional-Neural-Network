@@ -1,1 +1,7 @@
-# Convolutional-Neural-Network
+This project implements a Convolutional Neural Network (CNN) from scratch to perform handwritten digit recognition using the MNIST dataset. The project demonstrates the core principles of CNNs by manually coding the convolutional layers, max-pooling layers, and fully connected layers using Numpy, without relying on high-level frameworks like TensorFlow or PyTorch.
+
+The model begins by applying convolution operations to extract features from input images, followed by max-pooling to reduce the dimensionality while retaining important information. The output is then passed through a fully connected layer, with softmax activation for classification. The model is trained on a subset of the MNIST dataset, and cross-entropy loss is used to measure performance, with backpropagation implemented to update the weights during training.
+
+Additionally, the project includes a Tkinter-based graphical interface, allowing users to draw their own digits on a canvas and save them for prediction by the trained model. This feature allows users to interact with the model in real-time and observe how it recognizes custom digit inputs.
+
+The project provides a practical understanding of how CNNs work, including forward and backward passes, activation functions, and loss functions, and serves as a foundational exercise for anyone interested in deep learning and computer vision. The accuracy of the model is calculated on a separate test set to evaluate its performance, making it a complete hands-on learning experience in building and training CNNs from the ground up.
